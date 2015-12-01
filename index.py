@@ -9,8 +9,15 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello World!我是主页'
 
-@app.route('/test/<title>')
-def func_test(title=None):
+
+@app.route('/query/sydh/')
+def tiaozhuan():
+    return None
+
+
+
+@app.route('/query/sydh/<title>/')
+def func_test(title=0):
     return render_template('test.html',title = title)
 
 
