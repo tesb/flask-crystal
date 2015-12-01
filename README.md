@@ -1,12 +1,11 @@
 # flask-crystyle
 
-
-DB: SQL server 
+SQL Server的flask小工具
 
 Script: python/flask
 
 
-##daily##
+##更新日志##
 2015.12.01 init the project
 
     
