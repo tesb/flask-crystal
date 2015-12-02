@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=c:\venv"
+set "VIRTUAL_ENV=C:\Users\Administrator.X6X8-20150116DA\Documents\GitHub\flask-crystal\venv"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
